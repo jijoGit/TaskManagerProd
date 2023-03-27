@@ -1,11 +1,37 @@
-# Sample Snack app
+# TaskManager with Pomodoro Timer 
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+This is a TaskManager app that has Pomodoro Timer app built with React Native. The app allows users to set a timer for a specific period of time and take breaks in between work sessions. It also provides a dashboard to track the how the time is spent.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+Installation
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+To install the app, follow these steps:
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+    Clone the repository to your local machine.
+    Install the necessary dependencies by running npm install or yarn install.
+    Run the app on a local server by running npm start or yarn start.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+Usage
+
+To use the app, follow these steps:
+
+    On the Home screen, create/update/delete task
+    open the task Tap the "Start" button to start the timer.
+    When the timer reaches 0, the app will automatically switch to break mode.
+    During break mode, the timer will count down the break duration.
+    After the break duration is over, the app will switch back to work mode and start a new work session.
+    To view the dashboard, tap the "Dashboard" tab on the bottom navigation bar.
+
+Contributing
+
+Contributions are welcome! To contribute to the project, follow these steps:
+
+    Fork the repository.
+    Create a new branch for your feature or bug fix.
+    Make your changes and commit them to your branch.
+    Push your changes to your fork.
+    Create a pull request to merge your changes into the main branch.
+
+License
+
+This project is licensed under the MIT license. See the LICENSE file for more details.
+
